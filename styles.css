@@ -1,0 +1,252 @@
+* {
+    margin : 0 ;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 0px 10px 160px;
+}
+
+#logo {
+    width: 130px;
+    height: 50px;
+}
+
+
+#lists p {
+    color: white;
+    cursor: pointer;
+}
+
+
+#intro {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 52vh;
+}
+
+/* #all-options {
+    border: 1px solid grey;
+    margin-right: 640px;
+} */
+
+#lists { 
+    position: absolute;
+    right: 330px;
+    top: 25px;
+}
+
+#lists p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lists img {
+    width: 14%;
+    height: 14%;
+    padding-left: 20px;
+}
+
+.display {
+    display: inline-block
+}
+
+#buttons{
+    padding-top: 16.55%;
+    padding-left: 23%;
+
+}
+
+#buttons button {
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 20px 10px;
+}
+
+#options {
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 70%;
+    background-color: 	#f8f8ff ;
+}
+
+#options2 {
+    margin-top: 1%;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 70%;
+    background-color: 	#f8f8ff ;
+}
+
+
+#body {
+    margin-top: 3%;
+    margin-left: 23%;
+}
+
+.huge {
+    font-size: 17px;
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+
+#titles {
+    cursor: pointer;
+}
+
+#titles p {
+    padding-bottom: 10px;
+}
+
+#titles > p:hover {
+    text-decoration: underline;
+}
+
+.menu-items{
+    margin-top: 2%;
+    padding: 25px 120px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+#red-line { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+
+    border: 3px solid red;
+    color: red;
+    width: 28%;
+    margin-right: 300%;
+  } 
+
+#restaurant {
+    margin-left: 150px;
+    
+}
+
+#restaurant button {
+    cursor: pointer;
+    background-color: white;
+    padding-right: 20px;
+}
+
+#items {
+    margin-top:3.5%;
+}
+.red-title {
+    color: red;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+
+}
+
+.red-second {
+    margin-top: 3rem;
+}
+
+.item-within-red {
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+}
+
+.description-within-red {
+    padding-left: 15px;
+    font-size: 0.8rem;
+    padding-bottom: 1px;
+    font-size: 0.94rem;
+    width: 61%;
+}
+
+.price{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#all-items {
+    margin-left: 350px;
+    margin-top: -240px;
+}
+
+
+footer {
+    margin-top: 8rem;
+    background-color: #343a40;
+    padding-top: 50px;
+}
+
+footer p {
+    color: white
+}
+
+.info {
+    padding: 30px 0 20px 200px;
+}
+
+.info img {
+    width: 1%;
+    height:1%;
+    padding-right: 2px;
+}
+
+#miramin {
+    margin-left: 45%;
+    color: goldenrod;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#socials{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+#socials p {
+    font-size: 1.5rem;
+}
+
+#socials img {
+    height: 2%;
+    width: 2%;
+}
+
+#black-line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+
+    border: 1px solid white;
+    width: 75%;
+}
+
+#developed {
+    margin-left: 42%;
+    padding-bottom: 20px;
+}
+
+#omega {
+    padding-left: 40px;
+}
+
+#software {
+    padding-left: 80px;
+    margin-top: 10px;
+    color: goldenrod;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+}
