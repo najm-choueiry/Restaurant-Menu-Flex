@@ -90,16 +90,22 @@ header  div {
 
 }
 
+.food {
+    padding: 0 2rem 0 2rem;
+}
+
 #menu-items {
     width: 38vw;
     display: flex;
     justify-content: center;
+    column-gap: 0.5rem;
 }
 
 #menu-items2 {
     width: 38vw;
     display: flex;
     justify-content: center;
+    column-gap: 0.5rem; 
 }
 
 #restaurant{
@@ -107,12 +113,13 @@ header  div {
     justify-content: center;
     align-items: center;
     width: 38vw;
+    column-gap: 0.4rem;
     /* background-color:rgba(128, 128, 128, 0.932) ; */
 }
 
 .menu-items{
     margin-top: 2%;
-    padding: 25px 120px;
+    padding: 23px 115px;
     border-radius: 12px;
     border: 1px solid white;
     background-color: white;
@@ -131,15 +138,34 @@ header  div {
     margin-right: 300%; */
 } 
 
+
+#titles {
+    cursor: pointer;
+    width: 30%;
+}
+
+#titles p {
+    padding-bottom: 10px;
+}
+
+#titles > p:hover {
+    text-decoration: underline;
+}
+
 #body {
     margin-left: 3rem;
     margin-right: 40rem;
 }
+#all-items {
+    margin-left: 10px;
+}
+
 
 #items {
     display: flex;
     margin-left: 10rem;
     margin-top: 2rem;
+    margin-right: -80rem; 
 }
 
 #options {
@@ -154,7 +180,34 @@ header  div {
     margin-left:10rem;
 }
 
+.red-title {
+    color: red;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
 
+}
+.red-second {
+    margin-top: 3rem;
+}
+
+.item-within-red {
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+}
+
+.description-within-red {
+    padding-left: 15px;
+    font-size: 0.8rem;
+    padding-bottom: 1px;
+    font-size: 0.94rem;
+    width: 61%;
+}
+
+.price{
+    font-weight: bold;
+    padding-left: 15px;
+}
 
 /* footer */
 
