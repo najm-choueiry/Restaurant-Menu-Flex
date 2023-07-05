@@ -9,11 +9,6 @@ header {
     height: 8vh
 }
 
-header  div {
-    display: flex;
-
-}
-
 #logo {
     width: 100vw;
     height: 50px;
@@ -30,20 +25,31 @@ header  div {
 #logo p {
     color: white;
     cursor: pointer;
+    padding-right: 3rem;
 }
 
-
+#login-navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 #logo p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
+
+
 .display {
-    width: 3%;
-    height: 10%;
-    padding-left: 20px;
+    width: 1rem;
+    height: 1rem;
+    padding-left: 10px;
 }
+
+/* #cart-navbar {
+    margin-left: 1rem;
+} */
 
 
 
